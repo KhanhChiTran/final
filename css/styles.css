@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+.navbar {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(49, 47, 47);
+  border-radius: 30px;
+  box-shadow: inset 0px 0px 20px #636462;
+}
+nav ul {
+  text-align: center;
+  padding-top: 14px;
+  font-size: 16px;
+}
+nav li {
+  display: inline-block;
+  padding-left: 30px;
+}
+nav a {
+  display: block;
+  color: rgb(131, 127, 127);
+  margin: 10px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #ffb400;
+}
+nav li.current-page a {
+  color: #ffb400;
+  pointer-events: none;
+}
+nav a:active {
+  color: white;
+  box-shadow: inset 0px 0px 5px gainsboro;
+  border-radius: 2px;
+}
+.main-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 700px;
+  width: 500px;
+  height: 100vh;
+  color: white;
+}
+.main-text span {
+  color: #ffb400;
+}
+.main-text h1 {
+  font-family: "Open Sans", sans-serif;
+}
+.main-text p {
+  margin: 11px 0 23px;
+  font-size: 16px;
+  line-height: 32px;
+  font-family: "Open Sans", sans-serif;
+}
+.btn {
+  width: 200px;
+  height: 45px;
+  background-color: #636462;
+  border-radius: 26px;
+  text-align: center;
+  padding-top: 16px;
+  box-shadow: inset 0px 0px 15px #b2b4b0;
+}
+.main-text a {
+  position: relative;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+.main-text a:hover,
+.btn:hover {
+  background-color: black;
+  color: #ffb400;
+}
+.far,
+.fas {
+  color: #ffb400;
+  margin: 5px;
+}
+/* Begin About-page CSS */
+.title {
+  position: relative;
+  padding: 80px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 2em;
+}
+.title h1 {
+  color: white;
+}
+.title h6 {
+  color: #636462;
+}
+.title span {
+  color: #ffb400;
+}
+li span {
+  color: white;
+}
+.content {
+  display: flex;
+  justify-content: center;
+}
+.content-left {
+  width: 20%;
+  height: 500px;
+  background-color: black;
+  color: rgb(189, 185, 185);
+  padding: 40px;
+  font-family: "Open Sans", sans-serif;
+  border-right: 1px solid #636462;
+}
+.content-right {
+  width: 20%;
+  height: 500px;
+  background-color: black;
+  color: rgb(189, 185, 185);
+  padding: 40px;
+  font-family: "Open Sans", sans-serif;
+  border-left: 1px solid #636462;
+}
+.content-left li,
+.content-right li {
+  line-height: 2.2em;
+  list-style: none;
+}
+.content-left a {
+  font-size: 25px;
+  margin: 3px;
+  color: #ffb400;
+}
+.content-left a:hover {
+  color: white;
+}
+.content-right a {
+  color: white;
+  text-decoration: none;
+}
+.send-message {
+  background-color: #b2b4b0;
+  border-radius: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+#name,
+#email {
+  height: 46px;
+  width: 70%;
+  margin: 5px;
+  padding-left: 8px;
+}
+#comment {
+  margin: 5px;
+}
+.content-right a:hover,
+.btn:hover {
+  background-color: black;
+  color: #ffb400;
+/* Begin Contact page */
+
+/* a:link {
+  color: red;
+}
+a:visited {
+  color: blue;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav a:link,
+nav a:visited {
+  color: white;
+}
+nav a:hover,
+nav li.current-page a {
+  text-decoration: none;
+  color: red;
+  background-color: ;
+}
+nav li.current-page a {
+  pointer-events: none;
+}
+*/
