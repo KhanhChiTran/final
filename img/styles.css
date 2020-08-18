@@ -42,7 +42,6 @@ nav a:active {
   box-shadow: inset 0px 0px 5px gainsboro;
   border-radius: 2px;
 }
-/* Home-page CSS*/
 .main-text {
   position: relative;
   display: flex;
@@ -90,7 +89,7 @@ nav a:active {
   color: #ffb400;
   margin: 5px;
 }
-/* About & Contact-page CSS */
+/* Begin About-page CSS */
 .title {
   position: relative;
   padding: 80px;
@@ -150,7 +149,7 @@ li span {
   text-decoration: none;
 }
 .send-message {
-  background-color: #dadfd5;
+  background-color: #b2b4b0;
   border-radius: 20px;
   font-family: "Open Sans", sans-serif;
 }
@@ -160,44 +159,42 @@ li span {
   width: 70%;
   margin: 5px;
   padding-left: 8px;
-  outline: none;
-  caret-color: #ffb400;
 }
 #comment {
   margin: 5px;
-  outline: none;
-  caret-color: #ffb400;
 }
-
 .content-right a:hover,
 .btn:hover {
   background-color: black;
   color: #ffb400;
+/* Begin Contact page */
+
+/* a:link {
+  color: red;
 }
-/* My Work-page CSS */
-.my-projects {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+a:visited {
+  color: blue;
 }
-.my-projects img {
-  border-radius: 5px;
-  margin: 10px;
-}
-.my-projects img:hover {
-  opacity: 0.5;
-  
-}
-.my-projects p {
-  color: white;
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-  }
-.my-projects p:hover {
-  color: #ffb400;
-  transform: scale(1.2);
-}
-.my-projects a {
-  text-decoration: none;
+a:hover {
+  color: red;
+  text-decoration: underline;
 }
 
+nav ul li {
+  display: inline-block;
+}
+
+nav a:link,
+nav a:visited {
+  color: white;
+}
+nav a:hover,
+nav li.current-page a {
+  text-decoration: none;
+  color: red;
+  background-color: ;
+}
+nav li.current-page a {
+  pointer-events: none;
+}
+*/
